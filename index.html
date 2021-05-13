@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./style/home-page.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="top-nav-bar">
+      <a href="" class="logo">Countries of the World</a>
+    </nav>
+    <section class="country-list">
+      <div class="search-box">
+        <input type="text" class="search-box-input" />
+
+        <button class="filter">Filter</button>
+      </div>
+      <div class="filter-options fade-out">
+        <div class="header">Region</div>
+        <input type="text" name="" id="" />
+
+        <div class="header">Population range</div>
+        <div>
+          <label for="">Min</label>
+          <input type="text" name="" id="" />
+          <br />
+          <label for="">Max</label>
+          <input type="text" name="" id="" />
+        </div>
+        <div class="header">Languages</div>
+        <input type="text" name="" id="" />
+      </div>
+      <section class="country-root"></section>
+    </section>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+            <h4 class="modal-title">Modal Header</h4>
+          </div>
+          <div class="modal-body">
+            <p>Some text in the modal.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #eaeded;
+}
+
+body {
+  background: #f2f2f2;
+  font-family: "Open Sans", sans-serif;
+}
+
+.top-nav-bar {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #333;
+  color: #fff;
+}
+
+.logo {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.search-box-input {
+  width: 49%;
+  height: 100%;
+  border: 1px solid #f1f3f4;
+  border-radius: 20px;
+}
+
+.search-box {
+  width: 100%;
+
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 5;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.country-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  padding: 10px 25px;
+}
+
+.country-root {
+  display: contents;
+}
+
+.country-card {
+  display: inline;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  border: 1px solid #dfdfdf;
+}
+
+.country-card img {
+  height: 6vw;
+}
+
+table tr th {
+  padding: 5px;
+}
+table tr td {
+  padding: 5px;
+}
+
+.filter-options {
+  position: absolute;
+  background-color: #bada55;
+  width: 30%;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.fade-in {
+  display: block;
+}
+
+.fade-out {
+  display: none;
+}
